@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+SHELL := /bin/bash
+
+override_dh_auto_install:
+	install -Dpm 755 -d debian/tmp/usr/bin
+	install -Dpm 755 -d debian/tmp/usr/lib/node_modules/uglify-js
+	cp -rfT node_modules debian/tmp/usr/lib/node_modules
+	ln -fs /usr/lib/node_modules/uglify-js/bin/uglifyjs debian/tmp/usr/bin/uglifyjs
+
+override_dh_auto_test:
+
+override_dh_auto_clean:
+
+%:
+	dh $@
