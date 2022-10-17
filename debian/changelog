@@ -1,0 +1,5 @@
+uglify-js (100:3.16.3-1) UNRELEASED; urgency=medium
+
+  * https://github.com/mishoo/UglifyJS/releases/tag/v3.16.3
+
+ -- Wong Hoi Sing Edison <hswong3i@gmail.com>  Mon, 25 Jul 2022 07:48:17 +0800
