@@ -1,0 +1,4 @@
+uglifyjs: copyright-without-copyright-notice
+uglifyjs: initial-upload-closes-no-bugs
+uglifyjs: no-manual-page
+uglifyjs: zero-byte-file-in-doc-directory
